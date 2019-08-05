@@ -1,0 +1,6 @@
+framework module Pods_Zetstagram {
+  umbrella header "Pods-Zetstagram-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FF15D22C61A7DBC27C5B574 /* Pods_Zetstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E042AE7678D7405AF5735DE /* Pods_Zetstagram.framework */; };
+		E042ADCC22F6E757002FC074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042ADCB22F6E757002FC074 /* AppDelegate.swift */; };
+		E042ADCE22F6E757002FC074 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042ADCD22F6E757002FC074 /* SceneDelegate.swift */; };
+		E042ADD022F6E757002FC074 /* feedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042ADCF22F6E757002FC074 /* feedVC.swift */; };
+		E042ADD222F6E757002FC074 /* uploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042ADD122F6E757002FC074 /* uploadVC.swift */; };
+		E042ADD522F6E757002FC074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E042ADD322F6E757002FC074 /* Main.storyboard */; };
+		E042ADD722F6E757002FC074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E042ADD622F6E757002FC074 /* Assets.xcassets */; };
+		E042ADDA22F6E757002FC074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E042ADD822F6E757002FC074 /* LaunchScreen.storyboard */; };
+		E042ADE222F6E92A002FC074 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E042ADE122F6E92A002FC074 /* GoogleService-Info.plist */; };
+		E042ADE422F6F016002FC074 /* signInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042ADE322F6F016002FC074 /* signInVC.swift */; };
+		E042ADE622F6F190002FC074 /* settingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042ADE522F6F190002FC074 /* settingsVC.swift */; };
+		E042ADE822F71809002FC074 /* selectimage.png in Resources */ = {isa = PBXBuildFile; fileRef = E042ADE722F71809002FC074 /* selectimage.png */; };
+		E043D1D822F7DE4700C2980F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E043D1D722F7DE4700C2980F /* background.png */; };
+		E043D1DB22F7DE5000C2980F /* signIn.png in Resources */ = {isa = PBXBuildFile; fileRef = E043D1D922F7DE5000C2980F /* signIn.png */; };
+		E043D1DC22F7DE5000C2980F /* signUp.png in Resources */ = {isa = PBXBuildFile; fileRef = E043D1DA22F7DE5000C2980F /* signUp.png */; };
+		E043D1DE22F7E03B00C2980F /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E043D1DD22F7E03B00C2980F /* feedCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E042AE7678D7405AF5735DE /* Pods_Zetstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zetstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E042ADC822F6E757002FC074 /* Zetstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zetstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E042ADCB22F6E757002FC074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E042ADCD22F6E757002FC074 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E042ADCF22F6E757002FC074 /* feedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedVC.swift; sourceTree = "<group>"; };
+		E042ADD122F6E757002FC074 /* uploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadVC.swift; sourceTree = "<group>"; };
+		E042ADD422F6E757002FC074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E042ADD622F6E757002FC074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E042ADD922F6E757002FC074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E042ADDB22F6E757002FC074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E042ADE122F6E92A002FC074 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E042ADE322F6F016002FC074 /* signInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInVC.swift; sourceTree = "<group>"; };
+		E042ADE522F6F190002FC074 /* settingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsVC.swift; sourceTree = "<group>"; };
+		E042ADE722F71809002FC074 /* selectimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectimage.png; sourceTree = "<group>"; };
+		E043D1D722F7DE4700C2980F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		E043D1D922F7DE5000C2980F /* signIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signIn.png; sourceTree = "<group>"; };
+		E043D1DA22F7DE5000C2980F /* signUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signUp.png; sourceTree = "<group>"; };
+		E043D1DD22F7E03B00C2980F /* feedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
+		E72978B380875114ECA91AD4 /* Pods-Zetstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zetstagram.release.xcconfig"; path = "Target Support Files/Pods-Zetstagram/Pods-Zetstagram.release.xcconfig"; sourceTree = "<group>"; };
+		E729AA115996AC82A71E0539 /* Pods-Zetstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zetstagram.debug.xcconfig"; path = "Target Support Files/Pods-Zetstagram/Pods-Zetstagram.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E042ADC522F6E757002FC074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF15D22C61A7DBC27C5B574 /* Pods_Zetstagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E1E2D45A03B49BD3955033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E042AE7678D7405AF5735DE /* Pods_Zetstagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		505A813119AF420E5E7553F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E729AA115996AC82A71E0539 /* Pods-Zetstagram.debug.xcconfig */,
+				E72978B380875114ECA91AD4 /* Pods-Zetstagram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E042ADBF22F6E757002FC074 = {
+			isa = PBXGroup;
+			children = (
+				E042ADCA22F6E757002FC074 /* Zetstagram */,
+				E042ADC922F6E757002FC074 /* Products */,
+				505A813119AF420E5E7553F5 /* Pods */,
+				08E1E2D45A03B49BD3955033 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E042ADC922F6E757002FC074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E042ADC822F6E757002FC074 /* Zetstagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E042ADCA22F6E757002FC074 /* Zetstagram */ = {
+			isa = PBXGroup;
+			children = (
+				E043D1DF22F80BC800C2980F /* images */,
+				E042ADCB22F6E757002FC074 /* AppDelegate.swift */,
+				E042ADCD22F6E757002FC074 /* SceneDelegate.swift */,
+				E042ADE322F6F016002FC074 /* signInVC.swift */,
+				E042ADCF22F6E757002FC074 /* feedVC.swift */,
+				E043D1DD22F7E03B00C2980F /* feedCell.swift */,
+				E042ADD122F6E757002FC074 /* uploadVC.swift */,
+				E042ADE522F6F190002FC074 /* settingsVC.swift */,
+				E042ADD322F6E757002FC074 /* Main.storyboard */,
+				E042ADD622F6E757002FC074 /* Assets.xcassets */,
+				E042ADD822F6E757002FC074 /* LaunchScreen.storyboard */,
+				E042ADDB22F6E757002FC074 /* Info.plist */,
+				E042ADE122F6E92A002FC074 /* GoogleService-Info.plist */,
+			);
+			path = Zetstagram;
+			sourceTree = "<group>";
+		};
+		E043D1DF22F80BC800C2980F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E043D1D722F7DE4700C2980F /* background.png */,
+				E043D1D922F7DE5000C2980F /* signIn.png */,
+				E043D1DA22F7DE5000C2980F /* signUp.png */,
+				E042ADE722F71809002FC074 /* selectimage.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E042ADC722F6E757002FC074 /* Zetstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E042ADDE22F6E757002FC074 /* Build configuration list for PBXNativeTarget "Zetstagram" */;
+			buildPhases = (
+				698814CD8722E50543C87836 /* [CP] Check Pods Manifest.lock */,
+				E042ADC422F6E757002FC074 /* Sources */,
+				E042ADC522F6E757002FC074 /* Frameworks */,
+				E042ADC622F6E757002FC074 /* Resources */,
+				D3E2986C2C8D612A18EF852A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zetstagram;
+			productName = Zetstagram;
+			productReference = E042ADC822F6E757002FC074 /* Zetstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E042ADC022F6E757002FC074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Zetworks;
+				TargetAttributes = {
+					E042ADC722F6E757002FC074 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = E042ADC322F6E757002FC074 /* Build configuration list for PBXProject "Zetstagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E042ADBF22F6E757002FC074;
+			productRefGroup = E042ADC922F6E757002FC074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E042ADC722F6E757002FC074 /* Zetstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E042ADC622F6E757002FC074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E042ADE822F71809002FC074 /* selectimage.png in Resources */,
+				E043D1D822F7DE4700C2980F /* background.png in Resources */,
+				E043D1DB22F7DE5000C2980F /* signIn.png in Resources */,
+				E043D1DC22F7DE5000C2980F /* signUp.png in Resources */,
+				E042ADDA22F6E757002FC074 /* LaunchScreen.storyboard in Resources */,
+				E042ADE222F6E92A002FC074 /* GoogleService-Info.plist in Resources */,
+				E042ADD722F6E757002FC074 /* Assets.xcassets in Resources */,
+				E042ADD522F6E757002FC074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		698814CD8722E50543C87836 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zetstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E2986C2C8D612A18EF852A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zetstagram/Pods-Zetstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zetstagram/Pods-Zetstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zetstagram/Pods-Zetstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E042ADC422F6E757002FC074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E042ADD222F6E757002FC074 /* uploadVC.swift in Sources */,
+				E043D1DE22F7E03B00C2980F /* feedCell.swift in Sources */,
+				E042ADD022F6E757002FC074 /* feedVC.swift in Sources */,
+				E042ADCC22F6E757002FC074 /* AppDelegate.swift in Sources */,
+				E042ADE622F6F190002FC074 /* settingsVC.swift in Sources */,
+				E042ADE422F6F016002FC074 /* signInVC.swift in Sources */,
+				E042ADCE22F6E757002FC074 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E042ADD322F6E757002FC074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E042ADD422F6E757002FC074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E042ADD822F6E757002FC074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E042ADD922F6E757002FC074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E042ADDC22F6E757002FC074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E042ADDD22F6E757002FC074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E042ADDF22F6E757002FC074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E729AA115996AC82A71E0539 /* Pods-Zetstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32T5RFZ7N2;
+				INFOPLIST_FILE = Zetstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zetworks.Zetstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E042ADE022F6E757002FC074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72978B380875114ECA91AD4 /* Pods-Zetstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32T5RFZ7N2;
+				INFOPLIST_FILE = Zetstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zetworks.Zetstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E042ADC322F6E757002FC074 /* Build configuration list for PBXProject "Zetstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E042ADDC22F6E757002FC074 /* Debug */,
+				E042ADDD22F6E757002FC074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E042ADDE22F6E757002FC074 /* Build configuration list for PBXNativeTarget "Zetstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E042ADDF22F6E757002FC074 /* Debug */,
+				E042ADE022F6E757002FC074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E042ADC022F6E757002FC074 /* Project object */;
+}
